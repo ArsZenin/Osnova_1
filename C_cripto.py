@@ -78,7 +78,7 @@ def update_table():
 
 root = tk.Tk()
 root.title("Курсы криптовалют к USD (от CoinGecko)")
-root.geometry("500x450")
+root.geometry("500x350")
 
 lbl_title = tk.Label(root, text="Курсы криптовалют к USD", font=("Arial", 14, "bold"))
 lbl_title.pack(pady=10)
